@@ -63,7 +63,7 @@ class LinkedList {
             let index = 0;
 
             if (position === 0) {
-                head = current.next;
+                this.head = current.next;
             } else {
                 while (index++ < position) {
                     previous = current;
